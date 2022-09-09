@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="50"
+   height="53"
+   viewBox="0 0 50 53"
+   fill="none"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="doodle-1.0391a4b5.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="2.0566038"
+     inkscape:cx="-35.495413"
+     inkscape:cy="33.793578"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11" />
+  <g
+     clip-path="url(#clip0_403_6)"
+     id="g4"
+     style="fill:#f7921e;fill-opacity:1">
+    <path
+       d="M49.7202 15.7664C50.1194 14.3737 49.8522 12.5314 50 11.0381C49.9937 7.65214 49.8899 4.20017 49.5473 0.85196C49.0537 -0.562779 46.7869 -0.0974872 46.8498 1.3927C47.029 5.50488 47.3025 9.61076 47.1548 13.7292C47.2051 14.3517 47.1013 15.0308 47.3245 15.6187C47.6767 16.6499 49.2266 16.7159 49.7233 15.7664H49.7202ZM36.6574 21.1582C34.4096 17.5396 31.8033 14.0876 29.2819 10.6828C28.1501 9.7208 26.4367 11.2456 27.2227 12.5C29.678 15.9865 32.2057 19.4793 34.5982 22.9753C35.7331 23.9373 37.4402 22.4126 36.6574 21.1582V21.1582ZM26.1915 35.6325C27.2447 33.413 23.2677 32.8596 21.8844 32.1208C19.2404 31.1431 16.521 30.3854 13.8015 29.6466C13.1225 29.4831 12.3805 29.0933 11.7171 29.502C10.6419 30.0742 10.8777 31.819 12.0693 32.0862C15.4112 33.0137 18.7751 33.8908 22.0039 35.1641C22.5132 35.3684 23.0193 35.5759 23.5161 35.8086C24.3995 36.3336 25.5501 36.7392 26.1852 35.6357L26.1915 35.6325ZM18.2249 49.7107C17.1435 48.8996 14.2511 49.2926 12.0127 49.0159C9.22406 48.8619 6.42917 48.7676 3.63427 48.7864C2.57794 48.9185 1.2638 48.4941 0.399238 49.2486C-0.481044 50.0817 0.194887 51.6914 1.40842 51.6442C5.54889 51.5059 9.68936 51.6882 13.8235 51.924C15.2886 51.9869 17.373 52.1975 17.7848 51.924C18.6777 51.6285 18.904 50.3395 18.2249 49.7107Z"
+       fill="#4262FF"
+       id="path2"
+       style="fill:#f7921e;fill-opacity:1" />
+  </g>
+  <defs
+     id="defs9">
+    <clipPath
+       id="clip0_403_6">
+      <rect
+         width="50"
+         height="52.0655"
+         fill="white"
+         id="rect6" />
+    </clipPath>
+  </defs>
+</svg>

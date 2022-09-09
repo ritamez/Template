@@ -13,6 +13,8 @@
     <!-- Stylesheets & Fonts -->
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 </head>
 
 <body>
@@ -24,8 +26,8 @@
                 <div class="row">
                     <div class="col-md-6">
                         <ul class="top-menu">
-                            <li><a href="#">Teléfono: +34 963 36 86 910</a></li>
-                            <li><a href="#">Email: info@easystage.eu</a></li>
+                            <li><a href="tel:963368691">Teléfono: +34 963 36 86 910</a></li>
+                            <li><a href="mailto:info@easystage.eu">Email: info@easystage.eu</a></li>
                         </ul>
                     </div>
                     <div class="col-md-6 d-none d-sm-block">
@@ -33,8 +35,9 @@
                             <ul>
                                 <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li class="social-instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-flickr"><a href="#"><i class="fab fa-instagram"></i></a></li>
                                 <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li class="social-forrst"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                                 
                             </ul>
                         </div>
@@ -46,14 +49,15 @@
         </div>
         <!-- end: Topbar -->
         <!-- Header -->
-        <header id="header" data-fullwidth="true">
+         <!-- Header -->
+         <header id="header" data-transparent="true" class="header-logo-center sticky-active">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
                     <div id="logo">
                         <a href="index.html">
-                            <span class="logo-default">ES</span>
-                            <span class="logo-dark">ES</span>
+                            <img src="./images/logos/Logo_Easystage-01.png" class="img-fluid logo-default py-2">
+                            <img src="./images/logos/Logo_Easystage-01.png" class="logo-dark py-2">
                         </a>
                     </div>
                     <!--End: Logo-->
@@ -75,7 +79,6 @@
                                 <div class="p-dropdown">
                                     <a href="#"><i class="icon-globe"></i><span>ES</span></a>
                                     <ul class="p-dropdown-content">
-                                        <li><a href="#">Français</a></li>
                                         <li><a href="#">Italiano</a></li>
                                         <li><a href="#">Español</a></li>
                                     </ul>
@@ -93,12 +96,12 @@
                     <div id="mainMenu">
                         <div class="container">
                             <nav>
+                                <!--Left Menu-->
                                 <ul>
                                     <li><a href="index.html">Inicio</a></li>
                                     <li><a href="#nosotros">Nosotros</a></li>
                                     <li><a href="erasmusplus.html">Erasmus +</a></li>
-
-                                    <li class="dropdown"><a href="#">Actividades y Cursos</a>
+                                    <li class="dropdown"><a href="#">Actividades</a>
                                         <ul class="dropdown-menu">
                                             <li><a href="#">Actividad 1</a></li>
                                             <li><a href="#">Actividad 2<span class="badge bg-danger">¡NUEVO!</span></a></li>
@@ -106,6 +109,11 @@
                                             <li><a href="#">Actividad 4<span class="badge bg-danger">¡NUEVO!</span></a></li>
                                         </ul>
                                     </li>
+                                    
+                                </ul>
+                                <!--Right Menu-->
+                                <ul>
+                                    <li class="dropdown"><a href="#">Cursos</a>
                                     <li class="dropdown"><a href="#">Viajes</a>
                                         <ul class="dropdown-menu">
                                             <li><a href="#">Prácticas</a></li>
@@ -115,31 +123,49 @@
                                     
                                     <li><a href="blog.html">Blog</a></li>
                                     <li><a href="contacto.html">Contacto</a></li>
-                                </ul>
                             </nav>
                         </div>
                     </div>
-                    <!--END: NAVIGATION-->
+                    <!--end: Navigation-->
                 </div>
             </div>
         </header>
         <!-- end: Header -->
-        
-        <!-- SECTION IMAGE FULLSCREEN -->
-        <section class="halfscreen" data-bg-parallax="images/parallax/16.jpg">
-            <div class="bg-overlay"></div>
-            <div class="container-fluid">
-                <div class="container-fullscreen">
-                    <div class="text-middle text-center text-light">
-                        <h3 class="m-b-0">Prácticas</h3>
-                        <h2 class="text-lg m-t-0">EXPERIENCIA ÚNICA</h2>
-                        <p class="lead">La forma mas sencilla de realizar tus prácticas</p>
-                        <a class="btn btn-primary btn-outline text-white" href="#">Contáctanos</a>
+
+        <!-- SECTION GREY -->
+        <section class="hero p-b-0 no-padding">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="heading-text heading-section text-right mt-5">
+                            <h1 class="font-size-xxl text-bold mb-4">Haz lo que más te gusta hacer...</h1>
+                            <p class="font-size-lg text-muted font-weight-400 lh-base"> <span class="text-bold text-azure">¡Con EasyStage puedes!</span> Te ayudamos a cumplir tu sueño de trabajar y estudiar en nuevas ciudades europeas para que vivas una experiencia inolvidable.</p>
+                            <a href="#modalYoutube" data-lightbox="inline" class="btn btn-primary btn-modal btn-shadow">Ver video</a>
+                           
+                        </div>
                     </div>
+                    
+                    <div class="col-lg-5"> 
+                        <img alt="" src="images/homepages/doodle-1.0391a4b5.svg" style="margin:0 0 -15px -35px;">
+                        <img alt="" src="images/homepages/Hero.jpg" class="img-fluid rounded"> </div>
                 </div>
             </div>
         </section>
-        <!-- end: SECTION IMAGE FULLSCREEN -->
+        <!-- end: SECTION GREY -->
+
+        <!-- Modal -->
+        <div id="modalYoutube" class="modal" style="max-width: 700px; min-height:380px">
+            <div class="p-t-30 text-center">
+                <h2 class="m-b-0">Easy Stage</h2>
+                <h5>Check out my latest 2017 Reel Video</h5>
+                <div class="iframe-wrap m-b-20">
+                    <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/lrFtwdb3aQg" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <a href="contacto.html" class="btn btn-primary btn-xs btn-rounded">Contáctanos <i class="icon-chevron-right"></i></a>
+            </div>
+        </div>
+        <!--end: Modal -->
+
 
         <!-- About us -->
         <section id="nosotros">
@@ -197,103 +223,301 @@
             </div>
         </section>
         <!-- end: About us -->
-
         <!-- SERVICES -->
         <section>
             <div class="container">
                 <div class="col-lg-12 col-md-12 m-b-40 text-center">
-                    <h2>Services</h2>
+                    <h2>Nuestros Servicios</h2>
                     <p class="lead">Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="0">
-                        <div class="icon-box effect medium border small">
+                        <div class="icon-box medium border small">
                             <div class="icon">
-                                <a href="#"><i class="fa fa-plug"></i></a>
+                                <a href="#"><i class="fa fa-globe-europe"></i></a>
                             </div>
-                            <h3>Powerful template</h3>
+                            <h3>Erasmus +</h3>
                             <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
                         </div>
                     </div>
                     <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="200">
-                        <div class="icon-box effect medium border small">
+                        <div class="icon-box medium border small">
                             <div class="icon">
-                                <a href="#"><i class="fa fa-desktop"></i></a>
+                                <a href="#"><i class="fa fa-school"></i></a>
                             </div>
-                            <h3>Flexible Layouts</h3>
+                            <h3>Cursos</h3>
                             <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
                         </div>
                     </div>
                     <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="400">
-                        <div class="icon-box effect medium border small">
+                        <div class="icon-box medium border small">
                             <div class="icon">
-                                <a href="#"><i class="fa fa-cloud"></i></a>
+                                <a href="#"><i class="fa fa-home"></i></a>
                             </div>
-                            <h3>Retina Ready</h3>
+                            <h3>Alojamiento</h3>
                             <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="600">
-                        <div class="icon-box effect medium border small">
+                        <div class="icon-box medium border small">
                             <div class="icon">
-                                <a href="#"><i class="far fa-lightbulb"></i></a>
+                                <a href="#"><i class="fa fa-trophy"></i></a>
                             </div>
-                            <h3>Fast processing</h3>
+                            <h3>Actividades</h3>
                             <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
                         </div>
                     </div>
                     <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="800">
-                        <div class="icon-box effect medium border small">
+                        <div class="icon-box medium border small">
                             <div class="icon">
-                                <a href="#"><i class="fa fa-trophy"></i></a>
+                                <a href="#"><i class="fa fa-walking"></i></a>
                             </div>
-                            <h3>Unlimited Colors</h3>
+                            <h3>Visitas</h3>
                             <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
                         </div>
                     </div>
                     <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="1000">
-                        <div class="icon-box effect medium border small">
+                        <div class="icon-box medium border small">
                             <div class="icon">
                                 <a href="#"><i class="fa fa-thumbs-up"></i></a>
                             </div>
-                            <h3>Premium Sliders</h3>
+                            <h3>Prácticas</h3>
                             <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
                         </div>
                     </div>
 
-                    <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="1200">
-                        <div class="icon-box effect medium border small">
-                            <div class="icon">
-                                <a href="#"><i class="fa fa-rocket"></i></a>
-                            </div>
-                            <h3>Modern Design</h3>
-                            <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="1400">
-                        <div class="icon-box effect medium border small">
-                            <div class="icon">
-                                <a href="#"><i class="fa fa-flask"></i></a>
-                            </div>
-                            <h3>Clean Modern Code</h3>
-                            <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="1600">
-                        <div class="icon-box effect medium border small">
-                            <div class="icon">
-                                <a href="#"><i class="fa fa-umbrella"></i></a>
-                            </div>
-                            <h3>Free Updates & Support</h3>
-                            <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
-                        </div>
-                    </div>
+                    
+                    
+                    
                 </div>
             </div>
 
         </section>
         <!-- end: SERVICES -->
+
+        <!-- BLOG -->
+        <section class="content background-grey">
+            <div class="container">
+                <div class="heading-text heading-section">
+                    <h2>Historias destacadas</h2>
+                    
+                </div>
+
+                <div id="blog" class="grid-layout post-3-columns m-b-30" data-item="post-item">
+
+                    <!-- Post item-->
+                    <div class="post-item border">
+                        <div class="post-item-wrap">
+                            <div class="post-image">
+                                <a href="#">
+                                    <img alt="" src="images/blog/12.jpg">
+                                </a>
+                                <span class="post-meta-category"><a href="">Erasmus +</a></span>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>21 de Enero, 2022</span>
+                                
+                                <h2><a href="#">Nuevos requisitos para obtener una beca Erasmus +
+                                    </a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+
+                                <a href="#" class="item-link">Continuar leyendo <i class="fa fa-arrow-right"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item-->
+
+                    <!-- Post item-->
+                    <div class="post-item border">
+                        <div class="post-item-wrap">
+                            <div class="post-image">
+                                <a href="#">
+                                    <img alt="" src="images/blog/17.jpg">
+                                </a>
+                                <span class="post-meta-category"><a href="">Alojamiento</a></span>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>21 de Enero, 2022</span>
+                               
+
+                                <h2><a href="#">Alojamiento compartido en el Cabanyal
+                                    </a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+
+                                <a href="#" class="item-link">Continuar leyendo <i class="fa fa-arrow-right"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item-->
+
+
+                    <!-- Post item-->
+                    <div class="post-item border">
+                        <div class="post-item-wrap">
+                            <div class="post-image">
+                                <a href="#">
+                                    <img alt="" src="images/blog/18.jpg">
+                                </a>
+                                <span class="post-meta-category"><a href="">Convocatorias</a></span>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>21 de Enero, 2022</span>
+                                
+
+                                <h2><a href="#">Nuevos cursos en la universidad de Valencia
+                                    </a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+
+                                <a href="#" class="item-link">Continuar leyendo <i class="fa fa-arrow-right"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item-->
+                </div>
+                <div class="text-middle text-center text-light">
+                    <a class="btn btn-primary btn-outline text-white" href="blog.html">Ir al Blog</a>
+                </div>
+            </div>
+        </section>
+        <!-- end: BLOG -->
+        
+        
+        <section id="page-content">
+            <div class="container">
+                <div class="heading-text heading-section">
+                    <h2>Galería de Fotos</h2>
+                    
+                </div>
+                <!-- Portfolio -->
+                <div id="portfolio" class="grid-layout portfolio-3-columns grid-loaded" data-margin="0" style="margin: 0px; position: relative; height: 1233.3px;">
+                    
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+						<div class="portfolio-item-wrap">
+							<div class="portfolio-image">
+								<a href="#"><img src="images/portfolio/gal1.jpg" alt=""></a>
+							</div>
+							<div class="portfolio-description">
+								<a title="Paper Pouch!" data-lightbox="image" href="images/portfolio/gal1.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								
+							</div>
+						</div>
+					</div>
+                    <!-- end: portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+						<div class="portfolio-item-wrap">
+							<div class="portfolio-image">
+								<a href="#"><img src="images/portfolio/gal2.jpg" alt=""></a>
+							</div>
+							<div class="portfolio-description">
+								<a title="Paper Pouch!" data-lightbox="image" href="images/portfolio/gal2.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								
+							</div>
+						</div>
+					</div>
+                    <!-- end: portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+						<div class="portfolio-item-wrap">
+							<div class="portfolio-image">
+								<a href="#"><img src="images/portfolio/gal3.jpg" alt=""></a>
+							</div>
+							<div class="portfolio-description">
+								<a title="Paper Pouch!" data-lightbox="image" href="images/portfolio/gal3.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								
+							</div>
+						</div>
+					</div>
+                    <!-- end: portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+						<div class="portfolio-item-wrap">
+							<div class="portfolio-image">
+								<a href="#"><img src="images/portfolio/gal4.jpg" alt=""></a>
+							</div>
+							<div class="portfolio-description">
+								<a title="Paper Pouch!" data-lightbox="image" href="images/portfolio/gal4.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+							
+							</div>
+						</div>
+					</div>
+                    <!-- end: portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+						<div class="portfolio-item-wrap">
+							<div class="portfolio-image">
+								<a href="#"><img src="images/portfolio/gal5.jpg" alt=""></a>
+							</div>
+							<div class="portfolio-description">
+								<a title="Paper Pouch!" data-lightbox="image" href="images/portfolio/gal5.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								
+							</div>
+						</div>
+					</div>
+                    <!-- end: portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+						<div class="portfolio-item-wrap">
+							<div class="portfolio-image">
+								<a href="#"><img src="images/portfolio/gal6.jpg" alt=""></a>
+							</div>
+							<div class="portfolio-description">
+								<a title="Paper Pouch!" data-lightbox="image" href="images/portfolio/gal6.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								
+							</div>
+						</div>
+					</div>
+                    <!-- end: portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+						<div class="portfolio-item-wrap">
+							<div class="portfolio-image">
+								<a href="#"><img src="images/portfolio/gal7.jpg" alt=""></a>
+							</div>
+							<div class="portfolio-description">
+								<a title="Paper Pouch!" data-lightbox="image" href="images/portfolio/gal7.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								
+							</div>
+						</div>
+					</div>
+                    <!-- end: portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+						<div class="portfolio-item-wrap">
+							<div class="portfolio-image">
+								<a href="#"><img src="images/portfolio/gal8.jpg" alt=""></a>
+							</div>
+							<div class="portfolio-description">
+								<a title="Paper Pouch!" data-lightbox="image" href="images/portfolio/gal8.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+							
+							</div>
+						</div>
+					</div>
+                    <!-- end: portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+						<div class="portfolio-item-wrap">
+							<div class="portfolio-image">
+								<a href="#"><img src="images/portfolio/gal9.jpg" alt=""></a>
+							</div>
+							<div class="portfolio-description">
+								<a title="Paper Pouch!" data-lightbox="image" href="images/portfolio/gal9.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								
+							</div>
+						</div>
+					</div>
+                    <!-- end: portfolio item -->
+                <div class="grid-loader"></div></div>
+                <!-- end: Portfolio -->
+            </div>
+        </section>
+
+        
 
 
         <!-- Client logo -->
@@ -353,33 +577,47 @@
             <!--End: Small counters-->
         </section>
 
-
+       
         <!-- Footer -->
-        <footer id="footer">
+        <footer id="footer" class="bg-footer">
             <div class="footer-content">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-2">
                             <div class="widget">
-                                <div class="widget-title">Easy Stage</div>
-                                <ul class="list-unstyled">
-                                    <li><span class="m-2"><i class="fa fa-globe"></i></span>www.easystage.eu</li>
-                                    <li><span class="m-2"><i class="fa fa-envelope"></i></span>info@easystage.eu</li>
-                                    <li><span class="m-2"><i class="fa fa-phone"></i></span>+34 963 36 86 910</li>
-                                    <li><span class="m-2"><i class="fa fa-map-marker-alt"></i></span>Avda. de Giorgeta, 3, pta 14, 46007 Valencia</li>
-                                    
-                                </ul>
+                                <!--Logo-->
+                                <div id="logo" class="p-4">
+                                    <a href="index.html">
+                                        <img    src="./images/logos/Logo_Easystage-08.png" class="img-fluid">
+                                        
+                                    </a>
+                                </div>
+                                <!--End: Logo-->
+                                
+
+                                        
+                                        <!-- Social icons -->
+                                        <div class="social-icons social-icons-colored">
+                                            <ul>
+                                                <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li class="social-flickr"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                
+                                            </ul>
+                                        </div>
+                                    <!-- end: Social icons -->
                                 
                                 
                                 
                                 
                             </div>
                         </div>
-                        <div class="col-lg-8">
+                        <div class="col-lg-10">
                             <div class="row">
 
                                 <div class="col-lg-3">
-                                    <div class="widget">
+                                    <div class="widget text-light">
                                         <div class="widget-title">Menú</div>
                                         <ul class="list">
                                             <li><a href="#">Nosotros</a></li>
@@ -391,7 +629,7 @@
                                 </div>
 
                                 <div class="col-lg-3">
-                                    <div class="widget">
+                                    <div class="widget text-light">
                                         <div class="widget-title">Información</div>
                                         <ul class="list">
                                             <li><a href="#">Información 1</a></li>
@@ -403,21 +641,7 @@
                                 </div>
 
                                 <div class="col-lg-3">
-                                    <div class="widget">
-                                        <div class="widget-title">FAQ</div>
-                                        <ul class="list">
-                                            <li><a href="#">Pregunta 1</a></li>
-                                            <li><a href="#">Pregunta 2</a></li>
-                                            <li><a href="#">Pregunta 3</a></li>
-                                            <li><a href="#">Pregunta 4</a></li>
-                                           
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                
-                                <div class="col-lg-3">
-                                    <div class="widget">
+                                    <div class="widget text-light">
                                         <div class="widget-title">Políticas</div>
                                         <ul class="list">
                                             <li><a href="#">Política de Privacidad</a></li>
@@ -426,6 +650,26 @@
                                         </ul>
                                     </div>
                                 </div>
+                                
+                                <div class="col-lg-3">
+                                    <div class="widget text-light">
+                                        <div class="widget-title">Información</div>
+
+                                        <ul class="list-icon list-icon-colored">
+                                            <li><i class="fa fa fa-globe"></i>www.easystage.eu</li>
+                                            
+                                            <li><i class="fa fa-envelope"></i></span>info@easystage.eu</li>
+                                            <li><i class="fa fa-phone"></i></span>+34 963 36 86 910</li>
+                                            <li><i class="fa fa-map-marker-alt"></i></span>Avda. de Giorgeta, 3 <br>Pta 14, 46007 Valencia</li>
+                                            
+                                        </ul>
+                                       
+                                    </div>
+                                    
+                                    
+                                    
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -433,7 +677,7 @@
             </div>
             <div class="copyright-content">
                 <div class="container">
-                    <div class="copyright-text text-center">&copy; 2022 EASY STAGE SL - Erasmus+ & European Projects Partner en España | Mantenimiento web por<a href="https://www.beermagister.es" target="_blank" rel="noopener"> RTAMEZ</a> </div>
+                    <div class="copyright-text text-center text-light">&copy; 2022 EASY STAGE SL - Erasmus+ & European Projects Partner en España | Mantenimiento web por<a href="https://www.beermagister.es" target="_blank" rel="noopener"> RTAMEZ</a> </div>
                 </div>
             </div>
         </footer>

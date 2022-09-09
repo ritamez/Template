@@ -6,3 +6,70 @@
  <link href="css/custom.css" rel="stylesheet">
 
 */
+
+
+
+    .dark #footer, #footer.bg-footer, #footer.dark {
+        background-color: #246683;
+    }
+
+    #footer .copyright-content {
+        
+        background-color: #23607b;
+        
+    }
+
+
+    #topbar .top-menu > li > a {
+        color: #b6bfc8 ;
+        
+    }
+
+    #topbar {
+        border-bottom: 1px solid #ebd43a8a;
+    }
+
+    .social-icons li a {
+        
+        color: #b6bfc8 ;
+        
+    }
+
+
+    #mainMenu nav > ul > li > a {
+        
+        color: #4F89A5;
+        
+    }
+
+    #mainMenu nav > ul > li .dropdown-menu > li > a, #mainMenu nav > ul > li .dropdown-menu > li > span, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a {
+        color: rgb(36, 102, 131);
+    }
+
+    .header-extras > ul > li a, .header-extras > ul > li i {
+        color: #4F89A5;
+    }
+
+    .p-dropdown a:not(.btn) {
+        color: #4F89A5;
+    }
+
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+        
+        color: #246683;
+        
+    }
+
+    .post-item .post-item-description .post-meta-date, .post-item .post-item-description .post-meta-comments, .post-item .post-item-description .post-meta-category {
+        color: #F7921E;
+        
+    }
+
+    .icon-box.border .icon i {
+        
+        color: #F7921E;
+    }
+    .icon-box.border .icon {
+        border: 3px solid #F7921E;
+        
+    }
