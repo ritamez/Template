@@ -7,7 +7,9 @@
 
 */
 
-
+    .lines, .lines:before, .lines:after {
+        background-color: #4F89A5;
+    }
 
     .dark #footer, #footer.bg-footer, #footer.dark {
         background-color: #246683;
