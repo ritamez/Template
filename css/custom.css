@@ -60,16 +60,35 @@
         
     }
 
+   
+
     .post-item .post-item-description .post-meta-date, .post-item .post-item-description .post-meta-comments, .post-item .post-item-description .post-meta-category {
         color: #F7921E;
         
     }
 
-    .icon-box.border .icon i {
-        
-        color: #F7921E;
+   .blog-home {
+    background-image: linear-gradient(to bottom, #ffffff 55%, #246683 55%);
     }
-    .icon-box.border .icon {
-        border: 3px solid #F7921E;
-        
-    }
+    
+   
+   .blog-home .watermark {
+    bottom: -94px;
+    height: 348px;
+    left: 55%;
+    overflow: hidden;
+    position: absolute;
+    transform: rotate(14deg) translateX(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+.watermark svg {
+    height: 548px;
+    left: 85%;
+    max-width: none;
+    position: absolute;
+    transform:  translateX(-50%);
+    
+}
+
