@@ -7,41 +7,47 @@
 
 */
 
-    .lines, .lines:before, .lines:after {
-        background-color: #4F89A5;
+
+
+    :root {
+        --color-blu: #236892;
+        --color-azurro: #4CA7D1;
+        --color-rosso: #E16168; 
+        --color-arancia: #F7921E;
+        --color-verde: #9BC542;
+        --color-giallo: #EBD23A;
+        --color-viola: #C75EA4;
+        --color-gray: #f8f4f0;
     }
 
-    .dark #footer, #footer.bg-footer, #footer.dark {
-        background-color: #246683;
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+        color: var(--color-blu);
     }
 
-    #footer .copyright-content {
-        
-        background-color: #23607b;
-        
-    }
-
+    /* TopBar */
 
     #topbar .top-menu > li > a {
         color: #b6bfc8 ;
-        
     }
 
     #topbar {
         border-bottom: 1px solid #ebd43a8a;
     }
 
-    .social-icons li a {
-        
-        color: #b6bfc8 ;
-        
+    /* End: TopBar */
+
+
+    /* Navbar */
+
+
+    
+
+    .light .header-extras .p-dropdown a>span, .dark .header-extras a>i {
+        color: #fff;
     }
 
-
     #mainMenu nav > ul > li > a {
-        
-        color: #4F89A5;
-        
+        color: #fff;
     }
 
     #mainMenu nav > ul > li .dropdown-menu > li > a, #mainMenu nav > ul > li .dropdown-menu > li > span, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a {
@@ -49,48 +55,180 @@
     }
 
     .header-extras > ul > li a, .header-extras > ul > li i {
-        color: #4F89A5;
+        color: #fff;
+    }
+
+    .social-icons li a { 
+        color: #b6bfc8 ;
+    }
+
+    .lines, .lines:before, .lines:after {
+        background-color: #fff;
     }
 
     .p-dropdown a:not(.btn) {
-        color: #4F89A5;
+        color: var(--color-blu);
+        font-weight: 500;
     }
 
-    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-        
-        color: #246683;
-        
+    /* End: Navbar */
+
+
+    /* Homepage-Hero */
+
+    /* End: Homepage-Hero */
+
+
+
+    /* Azienda */
+
+    /* End: Azienda */
+
+
+    /* Home-Servizi */
+
+    .servicios .card {
+        box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0);
+    }
+    
+    .servicios .card-footer {
+        padding: 1.5rem 1.5rem;
+        background-color: transparent;
+        border-top: 0px solid #e4e6ef;
+    }
+    
+    .servicios .card .img .img-servicios{
+        width: 80%;
     }
 
-   
+
+    /* End: Home-Servizi */
+
+
+
+    /* Home-Blog */
 
     .post-item .post-item-description .post-meta-date, .post-item .post-item-description .post-meta-comments, .post-item .post-item-description .post-meta-category {
-        color: #F7921E;
+        color: var(--color-arancia);
         
     }
 
    .blog-home {
-    background-image: linear-gradient(to bottom, #ffffff 55%, #246683 55%);
+    background-image: linear-gradient(to bottom, var(--color-gray) 55%, var(--color-blu) 55%);
     }
     
    
-   .blog-home .watermark {
-    bottom: -94px;
-    height: 348px;
-    left: 55%;
-    overflow: hidden;
-    position: absolute;
-    transform: rotate(14deg) translateX(-50%);
-    width: 100%;
-    z-index: -1;
-}
+    .blog-home .watermark {
+        bottom: -94px;
+        height: 348px;
+        left: 55%;
+        overflow: hidden;
+        position: absolute;
+        transform: rotate(14deg) translateX(-50%);
+        width: 100%;
+        z-index: -1;
+    }
 
-.watermark svg {
-    height: 548px;
-    left: 85%;
-    max-width: none;
-    position: absolute;
-    transform:  translateX(-50%);
+    .watermark svg {
+        height: 548px;
+        left: 85%;
+        max-width: none;
+        position: absolute;
+        transform:  translateX(-50%);
+        
+    }
+
+
+    /* End: Home-Blog */
+
+
+
+    /* -- attivita -- */
+
+
+
+    .attivita .img .img-attivita{
+        
+        width: 60%;
+        
+    }
+
+
     
-}
+    .servicios .img .img-attivita{
+        
+        width: 80%;
+        
+    }
 
+
+
+
+
+
+    /* Footer */
+
+        .dark #footer, #footer.bg-footer, #footer.dark {
+            background-color: #246683;
+        }
+        #footer .copyright-content {
+            background-color: #23607b;
+        }
+
+
+    /* End: Footer */
+
+
+
+
+
+
+    /* Lingua-Hero */
+
+    .lingua-hero {
+        background-color: var(--color-azurro);
+    }
+
+    /* -- End: Lingua-Hero -- */
+   
+
+    
+    /* alberghiero */
+
+    .alberghiero-hero {
+        background-color: var(--color-viola);
+    }
+
+    .img-alberghiero {
+        max-width: 50%;
+        height: auto;
+        
+    }
+
+    /* -- End: alberghiero -- */
+
+
+     /* Stage-Estero */
+
+     .stage-hero {
+        background-color: var(--color-verde);
+    }
+
+    
+
+    /* -- End: Stage-Espero -- */
+
+      /* Alternanza Scuola Lavoro */
+
+      .alternanza-hero {
+        background-color: var(--color-rosso);
+    }
+
+    .alternanza-info .card {
+        border: 0px solid #e4e6ef; 
+    }
+
+    /* -- End: Stage-Espero -- */
+
+
+    

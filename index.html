@@ -4,8 +4,8 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="INSPIRO" />
-    <meta name="description" content="Themeforest Template Polo, html template">
+    <meta name="author" content="RTAMEZ" />
+    <meta name="description" content="TEASY STAGE | Erasmus+ & European Projects Partner in Spagna">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Document title -->
@@ -21,7 +21,7 @@
     <!-- Body Inner -->
     <div class="body-inner">
         <!-- Topbar -->
-        <div id="topbar" class="topbar-fullwidth d-none d-lg-block">
+        <div id="topbar" class="topbar-fullwidth d-none d-lg-block topbar-transparent dark">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -49,17 +49,17 @@
         </div>
         <!-- end: Topbar -->
          <!-- Header -->
-         <header id="header" data-transparent="true" class="header-logo-center sticky-active">
+         <header id="header" data-transparent="true" class="header-disable-fixed  light">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
-                <div id="logo">
-                    <a href="index.html">
-                        <img src="/homepages/easy_stage/logo/Logo_Easystage-01.png" class="img-fluid logo-default py-2">
-                        <img src="/homepages/easy_stage/logo/Logo_Easystage-01.png" class="img-fluid logo-dark py-2">
-                    </a>
-                </div>
-                <!--End: Logo-->
+                    <div id="logo">
+                        <a href="index.html">
+                            <img src="/homepages/easy_stage/logo/Logo_Easystage-01.png" class="img-fluid logo-default py-2">
+                            <img src="/homepages/easy_stage/logo/Logo_Easystage-01.png" class="img-fluid logo-dark py-2">
+                        </a>
+                    </div>
+                    <!--End: Logo-->
                     <!-- Search -->
                     <div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i class="icon-x"></i></a>
                         <form class="search-form" action="search-results-page.html" method="get">
@@ -92,43 +92,39 @@
                     </div>
                     <!--end: Navigation Resposnive Trigger-->
                     <!--Navigation-->
-                    <div id="mainMenu">
+                    <div id="mainMenu" class="menu-center">
                         <div class="container">
                             <nav>
                                 <!--Left Menu-->
                                 <ul>
                                     <li><a href="index.html">Home</a></li>
-                                    <li><a href="azienda.html">L'azienda</a></li>
+                                    
                                     <li><a href="erasmusplus.html">Erasmus +</a></li>
                                     
 
-                                    <li class="dropdown"><a href="#">Corsi</a>
+                                    <li class="dropdown"><a href="#">Servizzi</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="#">Lingua</a></li>
-                                            <li><a href="#">Cucina tradizionale</a></li>
-                                            <li><a href="#">Cucina d'Avanguardia</a></li>
-                                            <li><a href="#">Pasticceria/Panetteria</a></li>
-                                            <li><a href="#">Corso di Sala/Somelier</a></li>
+                                            <li><a href="lingua.html">Corso di Lingua</a></li>
+                                            <li><a href="alberghiero.html">Corsi Alberghiero ristorazione</a></li>
+                                            <li><a href="attivita.html">Attività Culturali</a></li>
+                                            <li><a href="trasferimenti.html">Trasferimenti e traspoto publico</a></li>
+                                            <li><a href="alloggio.html">Aloggio</a></li>
                                         </ul>
                                     </li>
-                                    
-                                    
-                                </ul>
-                                <!--Right Menu-->
-                                <ul>
-                                    <li><a href="erasmusplus.html">Attività</a></li>
-                                    <li class="dropdown"><a href="#">Viaggi</a>
+                                    <li class="dropdown"><a href="#">Programmi</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="#">Alternanza Scuola - Lavoro</a></li>
-                                            <li><a href="#">Vacanza Studio</a></li>
-                                            <li><a href="#">Stage all’estero</a></li>
-                                            <li><a href="#">Trasferimenti e traspoto publico</a></li>
-                                            <li><a href="#">Aloggio</a></li>
+                                            <li><a href="alternanza.html">Alternanza Scuola - Lavoro</a></li>
+                                            <li><a href="vacanza.html">Vacanza Studio</a></li>
+                                            <li><a href="stage.html">Stage all’estero</a></li>
+                                            
                                         </ul>
                                     </li>
                                     
                                     <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="contacto.html">Contattaci</a></li>
+                                    <li><a href="contattaci.html">Contattaci</a></li>
+                                    
+                                </ul>
+                                
                             </nav>
                         </div>
                     </div>
@@ -138,195 +134,236 @@
         </header>
         <!-- end: Header -->
 
-          <!-- SECTION GREY -->
-          <section class="hero">
-            
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="heading-text heading-section text-right">
-                            <h1 class="text-bold pb-4">Fa' ciò che ti rende felice...</h1>
-                            <p class="font-size-lg font-weight-400 lh-base"> <span class="text-bold text-azure">Con EasyStage puoi!</span> Ti aiutiamo a realizzare il tuo sogno di lavorare e studiare in nuove città europee e vivere un'esperienza indimenticabile.</p>
-                            <a href="#modalYoutube" data-lightbox="inline" class="btn btn-primary btn-modal btn-shadow">Guarda il video</a>
-                           
+
+        <section class="fullscreen" data-bg-parallax="/homepages/easy_stage/chi_siamo.jpg">
+            <div class="bg-overlay"></div>
+            <div class="shape-divider" data-style="1" data-height="300"></div>
+            <div class="container-wide">
+                <div class="container-fullscreen">
+                    <div class="text-middle">
+                        <div class="heading-text text-light col-lg-6">
+                            <h2 class="font-weight-800"><span>Fa' ciò che ti rende felice...</span></h2>
+                            <p><span class="text-bold text-azure">Con EasyStage puoi!</span> Ti aiutiamo a realizzare il tuo sogno di lavorare e studiare in nuove città europee e vivere un'esperienza indimenticabile.</p>
+
+                            <a href="#modalYoutube" data-lightbox="inline" class="btn btn-primary btn-modal">Guarda il video</a>
                         </div>
                     </div>
-                    
-                    <div class="col-lg-5"> 
-                        <img alt="" src="/homepages/easy_stage/doodle/doodle-1.0391a4b5.svg" style="margin:0 0 -15px -35px;">
-                        <img alt="" src="/homepages/easy_stage/Hero.jpg" class="img-fluid rounded"> </div>
                 </div>
             </div>
         </section>
-        <!-- end: SECTION GREY -->
 
 
-        <!-- SERVICES -->
-        <section class="p-b-0 background-pattern">
+
+         <!-- About us -->
+         <section>
             <div class="container">
-                <div class="col-lg-12 col-md-12 m-b-40 text-center">
-                    <h2>I nostri servizi</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6">
+                        <img alt="" src="/homepages/easy_stage/easy-azienda.png" class="img-fluid rounded">
+                    </div>
+                    <div class="col-lg-6">
+                        
+                        <h2>EasyStage è un’azienda spagnola, con sede a Valencia, che si dedica all’organizzazione di soggiorni all’estero.</h2>
+                        <p class="lead">Il nostro obiettivo è quello di promuovere l'internazionalizzazione delle competenze linguistiche e professionali.</p>
+                        
+                    </div>
                     
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h4 class="font-weight-300">A chi dirigiamo</h4>
+                            
+                            <p class="lead">A scuole, istituti e centri di formazione professionali interessati a organizzare:</p>
+                            <ul class="list-icon list-icon-check list-icon-colored font-size-lg font-weight-400 lh-base">
+                                <li>Progetti di mobilità europei</li>
+                                <li>Viaggi d’istruzione</li>
+                                <li>Stage all’estero</li>
+                                <li>Programmi di alternanza scuola/lavoro</li>
+                                
+                                </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <h4  class="font-weight-300">Cosa Offriamo</h4>
+                            <ul class="list-icon list-icon-check list-icon-colored font-size-lg font-weight-400 lh-base">
+                                <li>Programmi mirati alle esigenze dei singoli istituti e dei singoli alunni</li>
+                                <li>Tutor madrelingua in loco</li>
+                                <li>Monitoraggio e supervisione costante</li>
+                                
+                                
+                                </ul>
+                            
+                            </div>
+                    </div>
+                    <!-- end features box -->
                 </div>
+            </div>
+        </section>
+        <!-- end: About us -->
+        <div class="seperator pb-6"><i class="fa fa-chevron-down"></i>
+        </div>
+
+       
+
+        <!-- SERVICES -->       
+        <section class="servicios no-padding-top">
+            
+            <div class="container">  
                 <div class="row">
-
-
-                    <div class="col-lg-6">
-
-                        <div class="bg-transparent">
-                            <div class="row  d-flex align-items-center">
-                                <div class="col-sm-4">
-                                    <img class="card-img img-fluid" src="/homepages/easy_stage/servizi/scuola_lavoro.jpg" alt="Suresh Dasari Card">
-                                </div>
-                                <div class="col-sm-8">
-                                    <div class="card-body">
-                                        <h3 class="card-title font-weight-600">Alternanza Scuola-Lavoro</h3>
-                                        <p class="card-text font-size-lg font-weight-400 lh-base">Ha l'obiettivo di accrescentare delle competenze e conoscenze scolastiche attraverso l'esperienze lavorative.</p>
-                                        <a href="#" class="item-link">Continua a leggere <i class="fa fa-arrow-right"></i></a>
-                                        
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col-lg-8" data-animate="fadeIn">
+                        <div class="heading-text heading-section">
+                            <h2 class="text-medium">I nostri servizi</h2>
+                            <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
                         </div>
-
                     </div>
-                    <div class="col-lg-6">
-
-                        <div class="bg-transparent">
-                            <div class="row  d-flex align-items-center">
-                                <div class="col-sm-4">
-                                    <img class="card-img img-fluid" src="/homepages/easy_stage/servizi/vacanza_studio.jpg" alt="Suresh Dasari Card">
+                </div>    
+                <div class="row">
+                    <div class="carousel" data-items="4">
+                        <!-- Post item-->
+                        <div class="post-item">
+                            <div class="post-item-wrap">
+                                
+                                <div class="img d-flex justify-content-center">
+                                    <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/scuola_lavoro.jpg" alt="">
                                 </div>
-                                <div class="col-sm-8">
-                                    <div class="card-body">
-                                        <h3 class="card-title font-weight-600">Vacanza Studio</h3>
-                                        <p class="card-text font-size-lg font-weight-400 lh-base">Con lo scopo di scoprire la cultura e le tradizione spagnole, gli studenti avranno modo di imparare una nuova lingua, o di perfezionarla.</p>
-                                        <a href="#" class="item-link">Continua a leggere <i class="fa fa-arrow-right"></i></a>
-                                    </div>
+                                <div class="text-center m-t-20" style="height: 80px;">
+                                    <h3 class="text-colored">Alternanza <br>Scuola-Lavoro</h3>
+                                    
+                                </div> 
+                                <div class="text-center">
+                                    <a href="alternanza.html" class="item-link">Ulteriori informazioni <i class="fas fa-chevron-right"></i></a>
+                                </div> 
+
+                            </div>
+                        </div>
+                        <!-- end: Post item-->
+                        <!-- Post item-->
+                        <div class="post-item">
+                            <div class="post-item-wrap">
+                                <div class="img d-flex justify-content-center">
+                                    <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/vacanza_studio.jpg" alt="">
+                                </div>
+                                <div class="text-center m-t-20" style="height: 80px;">
+                                    <h3 class="text-colored">Vacanza <br>Studio</h3>
+                                    
+                                </div> 
+                                <div class="text-center">
+                                    <a href="vacanza.html" class="item-link">Ulteriori informazioni <i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
-
-                    </div>
-                    <div class="col-lg-6">
-
-                        <div class="bg-transparent">
-                            <div class="row  d-flex align-items-center">
-                                <div class="col-sm-4">
-                                    <img class="card-img img-fluid" src="/homepages/easy_stage/servizi/alloggio.jpg" alt="Suresh Dasari Card">
+                        <!-- end: Post item-->
+                        <!-- Post item-->
+                        <div class="post-item">
+                            <div class="post-item-wrap">
+                                <div class="img d-flex justify-content-center">
+                                    <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/stage.jpg" alt="">
                                 </div>
-                                <div class="col-sm-8">
-                                    <div class="card-body">
-                                        <h3 class="card-title font-weight-600">Alloggio</h3>
-                                        <p class="card-text font-size-lg font-weight-400 lh-base">Proponiamo diverse tipologie di alloggio, secondo le esigenze di ogni singolo gruppo.</p>
-                                        <a href="#" class="item-link">Continua a leggere <i class="fa fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
+                                <div class="text-center m-t-20" style="height: 80px;">
+                                    <h3 class="text-colored">Stage <br>all'estero</h3>
+                                    
+                                </div> 
+                                <div class="text-center">
+                                    <a href="stage.html" class="item-link">Ulteriori informazioni <i class="fas fa-chevron-right"></i></a>
+                                </div> 
+
+
                             </div>
                         </div>
-
-                    </div>
-                    <div class="col-lg-6">
-
-                        <div class="bg-transparent">
-                            <div class="row  d-flex align-items-center">
-                                <div class="col-sm-4">
-                                    <img class="card-img img-fluid" src="/homepages/easy_stage/servizi/attivita.jpg" alt="Suresh Dasari Card">
+                        <!-- end: Post item-->
+                        <!-- Post item-->
+                        <div class="post-item ">
+                            <div class="post-item-wrap">
+                                <div class="img d-flex justify-content-center">
+                                    <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/corso_2.jpg" alt="">
                                 </div>
-                                <div class="col-sm-8">
-                                    <div class="card-body">
-                                        <h3 class="card-title font-weight-600">Attività</h3>
-                                        <p class="card-text font-size-lg font-weight-400 lh-base">Offriamo varie attività culturali ed educative per gli studenti.</p>
-                                        <a href="#" class="item-link">Continua a leggere <i class="fa fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
+                                <div class="text-center m-t-20" style="height: 80px;">
+                                    <h3 class="text-colored">Corsi Alberghiero ristorazione</h3>
+                                    
+                                </div> 
+                                <div class="text-center">
+                                    <a href="alberghiero.html" class="item-link">Ulteriori informazioni <i class="fas fa-chevron-right"></i></a>
+                                </div> 
+
+
                             </div>
                         </div>
-
-                    </div>
-
-                    <div class="col-lg-6">
-
-                        <div class="bg-transparent">
-                            <div class="row  d-flex align-items-center">
-                                <div class="col-sm-4">
-                                    <img class="card-img img-fluid" src="/homepages/easy_stage/servizi/corso.jpg" alt="Suresh Dasari Card">
+                        <!-- end: Post item-->
+                        <!-- Post item-->
+                        <div class="post-item ">
+                            <div class="post-item-wrap">
+                                <div class="img d-flex justify-content-center">
+                                    <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/corso.jpg" alt="">
                                 </div>
-                                <div class="col-sm-8">
-                                    <div class="card-body">
-                                        <h3 class="card-title font-weight-600">Corso di lingua</h3>
-                                        <p class="card-text font-size-lg font-weight-400 lh-base">Collaboriamo con la Escuela El Tandem di Valencia per offrire corsi di lingua a studenti stranieri.</p>
-                                        <a href="#" class="item-link">Continua a leggere <i class="fa fa-arrow-right"></i></a>
-                                    </div>
+                                <div class="text-center m-t-20" style="height: 80px;">
+                                    <h3 class="text-colored">Corso <br>di lingua</h3>
+                                    
+                                </div> 
+                                <div class="text-center">
+                                    <a href="lingua.html" class="item-link">Ulteriori informazioni <i class="fas fa-chevron-right"></i></a>
                                 </div>
+
+
+
                             </div>
                         </div>
-
-                    </div>
-
-                    <div class="col-lg-6">
-
-                        <div class="bg-transparent">
-                            <div class="row  d-flex align-items-center">
-                                <div class="col-sm-4">
-                                    <img class="card-img img-fluid" src="/homepages/easy_stage/servizi/stage.jpg" alt="Suresh Dasari Card">
+                        <!-- end: Post item-->
+                        <div class="post-item ">
+                            <div class="post-item-wrap">
+                                <div class="img d-flex justify-content-center">
+                                    <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/attivita.jpg" alt="">
                                 </div>
-                                <div class="col-sm-8">
-                                    <div class="card-body">
-                                        <h3 class="card-title font-weight-600">Stage all'estero</h3>
-                                        <p class="card-text font-size-lg font-weight-400 lh-base">Offriamo l'opportunità di realizzare un periodo di formazione in una delle tante aziende che anno dopo anno accolgono giovani stagisti.</p>
-                                        <a href="#" class="item-link">Continua a leggere <i class="fa fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
+                                <div class="text-center m-t-20" style="height: 80px;">
+                                    <h3 class="text-colored">Attività</h3>
+                                    
+                                </div> 
+                                <div class="text-center">
+                                    <a href="attivita.html" class="item-link">Ulteriori informazioni <i class="fas fa-chevron-right"></i></a>
+                                </div> 
+
+
+
                             </div>
                         </div>
-
-                    </div>
-
-
-                    <div class="col-lg-6">
-
-                        <div class="bg-transparent">
-                            <div class="row  d-flex align-items-center">
-                                <div class="col-sm-4">
-                                    <img class="card-img img-fluid" src="/homepages/easy_stage/servizi/corso_2.jpg" alt="Suresh Dasari Card">
+                        <!-- end: Post item-->
+                        <div class="post-item ">
+                            <div class="post-item-wrap">
+                                <div class="img d-flex justify-content-center">
+                                    <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/alloggio.jpg" alt="">
                                 </div>
-                                <div class="col-sm-8">
-                                    <div class="card-body">
-                                        <h3 class="card-title font-weight-600">Corsi Alberghiero ristorazione</h3>
-                                        <p class="card-text font-size-lg font-weight-400 lh-base">Collaboriamo con Ecotur, il primo "Hotel Scuola" della Comunidad Valenciana.</p>
-                                        <a href="#" class="item-link">Continua a leggere <i class="fa fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
+                                <div class="text-center m-t-20" style="height: 80px;">
+                                    <h3 class="text-colored">Alloggio</h3>
+                                    
+                                </div> 
+                                <div class="text-center">
+                                    <a href="alloggio.html" class="item-link">Ulteriori informazioni <i class="fas fa-chevron-right"></i></a>
+                                </div> 
+
+
+
                             </div>
                         </div>
-
-                    </div>
-
-                    <div class="col-lg-6">
-
-                        <div class="bg-transparent">
-                            <div class="row  d-flex align-items-center">
-                                <div class="col-sm-4">
-                                    <img class="card-img img-fluid" src="/homepages/easy_stage/servizi/trasferimenti.jpg" alt="Suresh Dasari Card">
-                                </div>
-                                <div class="col-sm-8">
-                                    <div class="card-body">
-                                        <h3 class="card-title font-weight-600">Trasferimenti e trasporto publico</h3>
-                                        <p class="card-text font-size-lg font-weight-400 lh-base">Organizziamo iltransfer da e per l'aeroporto e di fornire una scheda per il trasporto pubblico.</p>
-                                        <a href="#" class="item-link">Continua a leggere <i class="fa fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <!-- end: Post item-->
+                        <div class="post-item ">
+                            <div class="post-item-wrap">
+                                <div class="img d-flex justify-content-center">
+                            <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/trasferimenti.jpg" alt="">
                         </div>
-
+                        <div class="text-center m-t-20" style="height: 80px;">
+                            <h3 class="text-colored">Trasferimenti <br>e trasporto publico</h3>
+                            
+                        </div> 
+                        <div class="text-center">
+                            <a href="trasferimenti.html" class="item-link">Ulteriori informazioni <i class="fas fa-chevron-right"></i></a>
+                        </div> 
                     </div>
                 </div>
             </div>
-
         </section>
         <!-- end: SERVICES -->
+
+         
+
+
+        
 
         <!-- BLOG -->
         <section class=" blog-home content ">
