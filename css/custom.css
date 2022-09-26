@@ -42,34 +42,7 @@
 
     
 
-    .light .header-extras .p-dropdown a>span, .dark .header-extras a>i {
-        color: #fff;
-    }
-
-    #mainMenu nav > ul > li > a {
-        color: #fff;
-    }
-
-    #mainMenu nav > ul > li .dropdown-menu > li > a, #mainMenu nav > ul > li .dropdown-menu > li > span, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a {
-        color: rgb(36, 102, 131);
-    }
-
-    .header-extras > ul > li a, .header-extras > ul > li i {
-        color: #fff;
-    }
-
-    .social-icons li a { 
-        color: #b6bfc8 ;
-    }
-
-    .lines, .lines:before, .lines:after {
-        background-color: #fff;
-    }
-
-    .p-dropdown a:not(.btn) {
-        color: var(--color-blu);
-        font-weight: 500;
-    }
+   
 
     /* End: Navbar */
 
