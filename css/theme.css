@@ -400,7 +400,7 @@ Main Menu
   #header #mainMenu nav > ul > li.current > span, #header #mainMenu nav > ul > li:hover > a,
   #header #mainMenu nav > ul > li:hover > span, #header #mainMenu nav > ul > li:focus > a,
   #header #mainMenu nav > ul > li:focus > span {
-    color: #246683; }
+    color: #EBD23A; }
   #header #mainMenu nav > ul > li .dropdown-menu > li > a:focus, #header #mainMenu nav > ul > li .dropdown-menu > li > a:hover, #header #mainMenu nav > ul > li .dropdown-menu > li > a:active,
   #header #mainMenu nav > ul > li .dropdown-menu > li > span:focus,
   #header #mainMenu nav > ul > li .dropdown-menu > li > span:hover,
@@ -415,42 +415,42 @@ Main Menu
   #header #mainMenu nav > ul > li .dropdown-menu > li:focus > span, #header #mainMenu nav > ul > li .dropdown-menu > li:active > a,
   #header #mainMenu nav > ul > li .dropdown-menu > li:active > span, #header #mainMenu nav > ul > li .dropdown-menu > li.hover-active > a,
   #header #mainMenu nav > ul > li .dropdown-menu > li.hover-active > span {
-    color: #246683; }
+    color: #C75EA4; }
   #header #mainMenu.menu-rounded nav > ul > li.current > a, #header #mainMenu.menu-rounded nav > ul > li:hover > a, #header #mainMenu.menu-rounded nav > ul > li:focus > a {
-    background-color: #246683; }
+    background-color: #C75EA4; }
   #header #mainMenu.menu-outline nav > ul > li.current > a, #header #mainMenu.menu-outline nav > ul > li:hover > a, #header #mainMenu.menu-outline nav > ul > li:focus > a {
-    color: #246683;
-    border-color: #246683; }
+    color: #C75EA4;
+    border-color: #C75EA4; }
   #header #mainMenu.menu-lines nav > ul > li.current > a, #header #mainMenu.menu-lines nav > ul > li:hover > a, #header #mainMenu.menu-lines nav > ul > li:focus > a {
-    color: #246683; }
+    color: #C75EA4; }
     #header #mainMenu.menu-lines nav > ul > li.current > a:after, #header #mainMenu.menu-lines nav > ul > li:hover > a:after, #header #mainMenu.menu-lines nav > ul > li:focus > a:after {
-      background-color: #246683; }
+      background-color: #C75EA4; }
   #header #mainMenu.menu-hover-background nav > ul > li.current, #header #mainMenu.menu-hover-background nav > ul > li:hover, #header #mainMenu.menu-hover-background nav > ul > li:focus {
-    background-color: #246683; }
+    background-color: #C75EA4; }
   #header #shopping-cart > a .shopping-cart-items {
-    background: #246683; }
+    background: #C75EA4; }
 
 /* ----------------------------------------------------------------
 Dots Menu
 -----------------------------------------------------------------*/
 #dotsMenu ul li:hover {
-  background-color: #246683; }
+  background-color: #C75EA4; }
 #dotsMenu ul li.current {
-  background-color: #246683; }
+  background-color: #C75EA4; }
 #dotsMenu ul li a:hover:before, #dotsMenu ul li a.active:before {
-  background-color: #246683; }
+  background-color: #C75EA4; }
 
 /*Menu Dark*/
 #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li .dropdown-menu > li > a:hover,
 #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li .dropdown-menu > li > span:hover,
 #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:hover {
-  color: #246683; }
+  color: #C75EA4; }
 #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li.current > a,
 #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li.current > span, #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li:hover > a,
 #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li:hover > span, #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li:focus > a,
 #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li:focus > span, #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li.hover-active > a,
 #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li.hover-active > span {
-  color: #246683; }
+  color: #C75EA4; }
 
 .page-menu nav > ul > li:hover > a, .page-menu nav > ul > li.active > a {
   color: #246683; }

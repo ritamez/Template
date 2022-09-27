@@ -778,9 +778,9 @@ Overlay Menu
 
 .dark:not(.submenu-light) #mainMenu, #mainMenu.dark { /*Menu Styles*/ }
 
-.dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu, #mainMenu.dark nav > ul > li .dropdown-menu { background-color: #1e2022; border-color: #2c2f32; }
+.dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu, #mainMenu.dark nav > ul > li .dropdown-menu { background-color: #f8f4f0; border-color: #f8f4f0; }
 
-.dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > a, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > span, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a, #mainMenu.dark nav > ul > li .dropdown-menu > li > a, #mainMenu.dark nav > ul > li .dropdown-menu > li > span, #mainMenu.dark nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a { color: #c1c3ce; }
+.dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > a, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > span, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a, #mainMenu.dark nav > ul > li .dropdown-menu > li > a, #mainMenu.dark nav > ul > li .dropdown-menu > li > span, #mainMenu.dark nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a { color: #C75EA4; }
 
 .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > a:focus, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > a:hover, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > a:active, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > span:focus, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > span:hover, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > span:active, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:focus, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:hover, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:active, #mainMenu.dark nav > ul > li .dropdown-menu > li > a:focus, #mainMenu.dark nav > ul > li .dropdown-menu > li > a:hover, #mainMenu.dark nav > ul > li .dropdown-menu > li > a:active, #mainMenu.dark nav > ul > li .dropdown-menu > li > span:focus, #mainMenu.dark nav > ul > li .dropdown-menu > li > span:hover, #mainMenu.dark nav > ul > li .dropdown-menu > li > span:active, #mainMenu.dark nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:focus, #mainMenu.dark nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:hover, #mainMenu.dark nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:active { color: #c1c3ce; }
 
@@ -925,7 +925,7 @@ Main Menu: Responsive
   #mainMenu:not(.menu-overlay).menu-left nav { margin-left: 0; }
   .mainMenu-open #header #mainMenu { width: calc(100% + 14px); display: block; opacity: 1; overflow-y: scroll; }
   .mainMenu-open #header .header-inner, .mainMenu-open #header #header-wrap { box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); background-color: #fff !important; }
-  .mainMenu-open.dark #header .header-inner, .mainMenu-open.dark #header #header-wrap, .mainMenu-open #header:not(.submenu-light).dark .header-inner, .mainMenu-open #header:not(.submenu-light).dark #header-wrap { background-color: #1e2022 !important; }
+  .mainMenu-open.dark #header .header-inner, .mainMenu-open.dark #header #header-wrap, .mainMenu-open #header:not(.submenu-light).dark .header-inner, .mainMenu-open #header:not(.submenu-light).dark #header-wrap { background-color: #4CA7D1 !important; }
   .mainMenu-open #dotsMenu { z-index: -1; }
   #dotsMenu { right: 20px; }
   #dotsMenu:before { background: none; } }
@@ -2819,7 +2819,7 @@ td.fc-today { border-style: none; }
 
 .p-dropdown { float: left; font-size: 13px; font-weight: 400; position: relative; }
 
-.p-dropdown a:not(.btn) { color: #3c4043; }
+.p-dropdown a:not(.btn) { color: #C75EA4; }
 
 .p-dropdown .btn, .p-dropdown .title { padding-bottom: 10px; cursor: pointer; overflow: unset !important; }
 
