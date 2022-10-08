@@ -25,6 +25,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
+                        
                         <ul class="top-menu">
                             <li><a href="tel:963368691">Teléfono: +34 963 36 86 910</a></li>
                             <li><a href="mailto:info@easystage.eu">Email: info@easystage.eu</a></li>
@@ -49,31 +50,22 @@
         </div>
         <!-- end: Topbar -->
          <!-- Header -->
-         <header id="header" data-transparent="true" class="header-disable-fixed dark">
+         <header id="header" data-transparent="true" class="header-disable-fixed header-logo-center dark">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
                     <div id="logo">
                         <a href="index.html">
-                            <img src="/homepages/easy_stage/logo/Logo_Easystage-01.png" class="img-fluid logo-default py-2">
-                            <img src="/homepages/easy_stage/logo/Logo_Easystage-01.png" class="img-fluid logo-dark py-2">
+                            <img src="./homepages/easy_stage/logo/Logo_Easystage-01.png" class="img-fluid logo-default py-2">
+                            <img src="./homepages/easy_stage/logo/Logo_Easystage-01.png" class="img-fluid logo-dark py-2">
                         </a>
                     </div>
                     <!--End: Logo-->
-                    <!-- Search -->
-                    <div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i class="icon-x"></i></a>
-                        <form class="search-form" action="search-results-page.html" method="get">
-                            <input class="form-control" name="q" type="text" placeholder="Buscar..." />
-                            <span class="text-muted">Comienza a escribir y presiona "Enter" o "ESC" para cerrar</span>
-                        </form>
-                    </div>
-                    <!-- end: search -->
+                    
                     <!--Header Extras-->
                     <div class="header-extras">
                         <ul>
-                            <li>
-                                <a id="btn-search" href="#"> <i class="icon-search"></i></a>
-                            </li>
+                            
                             <li>
                                 <div class="p-dropdown">
                                     <a href="#"><i class="icon-globe"></i><span>IT</span></a>
@@ -92,7 +84,7 @@
                     </div>
                     <!--end: Navigation Resposnive Trigger-->
                     <!--Navigation-->
-                    <div id="mainMenu" class="menu-center">
+                    <div id="mainMenu" >
                         <div class="container">
                             <nav>
                                 <!--Left Menu-->
@@ -111,6 +103,12 @@
                                             <li><a href="alloggio.html">Aloggio</a></li>
                                         </ul>
                                     </li>
+                                    
+                                    
+                                </ul>
+
+                                <ul>
+                                    
                                     <li class="dropdown"><a href="#">Programmi</a>
                                         <ul class="dropdown-menu rounded">
                                             <li><a href="alternanza.html">Alternanza Scuola - Lavoro</a></li>
@@ -135,7 +133,7 @@
         <!-- end: Header -->
 
 
-        <section class="fullscreen" data-bg-parallax="/homepages/easy_stage/chi_siamo.jpg">
+        <section class="fullscreen" data-bg-parallax="./homepages/easy_stage/chi_siamo.jpg">
             <div class="bg-overlay"></div>
             <div class="shape-divider" data-style="1" data-height="300"></div>
             <div class="container-wide">
@@ -155,11 +153,11 @@
 
 
          <!-- About us -->
-         <section>
+         <section class="noi no-padding-bottom">
             <div class="container">
                 <div class="row d-flex align-items-center">
                     <div class="col-lg-6">
-                        <img alt="" src="/homepages/easy_stage/easy-azienda.png" class="img-fluid rounded">
+                        <img alt="" src="./homepages/easy_stage/easy-azienda.png" class="img-fluid rounded">
                     </div>
                     <div class="col-lg-6">
                         
@@ -169,201 +167,309 @@
                     </div>
                     
                     <div class="row">
-                        <div class="col-lg-6">
-                            <h4 class="font-weight-300">A chi ci dirigiamo</h4>
-                            
-                            <p class="lead">A scuole, istituti e centri di formazione professionali interessati a organizzare:</p>
-                            <ul class="list-icon list-icon-check list-icon-colored font-size-lg font-weight-400 lh-base">
-                                <li>Progetti di mobilità europei</li>
-                                <li>Viaggi d’istruzione</li>
-                                <li>Stage all’estero</li>
-                                <li>Programmi di alternanza scuola/lavoro</li>
+                        
+                        <div class="col-12 col-sm-6 col-lg-6 mb-5">
+                            <div class="card rounded h-100">
                                 
-                                </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <h4  class="font-weight-300">Cosa Offriamo</h4>
-                            <ul class="list-icon list-icon-check list-icon-colored font-size-lg font-weight-400 lh-base">
-                                <li>Programmi mirati alle esigenze dei singoli istituti e dei singoli alunni</li>
-                                <li>Tutor madrelingua in loco</li>
-                                <li>Monitoraggio e supervisione costante</li>
-                                
-                                
-                                </ul>
-                            
+                                <div class="card-body c-1">
+                                    <h3 class="card-title p-3">A chi ci dirigiamo:</h3>
+                                    <p class="lead  mb-2 text-white p-3">A scuole, istituti e centri di formazione professionali interessati a organizzare:</p>
+                                    
+                                    <ul class="list-icon list-icon-check  font-size-lg font-weight-400 lh-base p-3">
+                                        <li>Progetti di mobilità europei</li>
+                                        <li>Viaggi d’istruzione</li>
+                                        <li>Stage all’estero</li>
+                                        <li>Programmi di alternanza scuola/lavoro</li>
+                                        
+                                        </ul>
+                                    
+                                </div>
                             </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-lg-6 mb-5">
+                            <div class="card rounded h-100">
+                                <div class="card-body c-2">
+                                    <h3 class="card-title p-3">Cosa Offriamo:</h3>
+                                    <p class="lead  mb-2 text-white p-3">Diverse tipologie di servizi a misura delle esigenze dei nostri clienti:
+                                        </p>
+                                    
+                                    <ul class="list-icon list-icon-check  font-size-lg font-weight-400 lh-base p-3">
+                                        <li>Programmi mirati alle esigenze dei singoli istituti e dei singoli alunni</li>
+                                        <li>Tutor madrelingua in loco</li> 
+                                        <li>Monitoraggio e supervisione costante</li>
+                                        
+                                        </ul>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                        
+                        
                     </div>
                     <!-- end features box -->
                 </div>
             </div>
         </section>
         <!-- end: About us -->
-        <div class="seperator pb-6"><i class="fa fa-chevron-down"></i>
-        </div>
+        
 
-       
-
-        <!-- SERVICES -->       
-        <section class="servicios no-padding-top">
-            
-            <div class="container">  
+        <section class="programmi-home no-padding-bottom">
+            <div class="container mb-9">
                 <div class="row">
+
                     <div class="col-lg-8" data-animate="fadeIn">
+                                
                         <div class="heading-text heading-section">
-                            <h2 class="text-medium">I nostri servizi</h2>
-                            <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                            <h2 class="text-medium">Programmi</h2>
                         </div>
                     </div>
-                </div>    
-                <div class="row">
-                    <div class="carousel" data-items="4">
-                        <!-- Post item-->
-                        <div class="post-item">
-                            <div class="post-item-wrap">
-                                
-                                <div class="img d-flex justify-content-center">
-                                    <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/scuola_lavoro.jpg" alt="">
-                                </div>
-                                <div class="text-center m-t-20" style="height: 80px;">
-                                    <h3 class="text-colored">Alternanza <br>Scuola-Lavoro</h3>
-                                    
-                                </div> 
-                                <div class="text-center">
-                                    <a href="alternanza.html" class="item-link">Maggiori informazioni <i class="fas fa-chevron-right"></i></a>
-                                </div> 
+        
+                </div><!--.row-->
+                <div class="row pt-5" data-animate="fadeInUp">
 
-                            </div>
-                        </div>
-                        <!-- end: Post item-->
-                        <!-- Post item-->
-                        <div class="post-item">
-                            <div class="post-item-wrap">
-                                <div class="img d-flex justify-content-center">
-                                    <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/vacanza_studio.jpg" alt="">
-                                </div>
-                                <div class="text-center m-t-20" style="height: 80px;">
-                                    <h3 class="text-colored">Vacanza <br>Studio</h3>
-                                    
-                                </div> 
-                                <div class="text-center">
-                                    <a href="vacanza.html" class="item-link">Maggiori informazioni <i class="fas fa-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end: Post item-->
-                        <!-- Post item-->
-                        <div class="post-item">
-                            <div class="post-item-wrap">
-                                <div class="img d-flex justify-content-center">
-                                    <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/stage.jpg" alt="">
-                                </div>
-                                <div class="text-center m-t-20" style="height: 80px;">
-                                    <h3 class="text-colored">Stage <br>all'estero</h3>
-                                    
-                                </div> 
-                                <div class="text-center">
-                                    <a href="stage.html" class="item-link">Maggiori informazioni <i class="fas fa-chevron-right"></i></a>
-                                </div> 
-
-
-                            </div>
-                        </div>
-                        <!-- end: Post item-->
-                        <!-- Post item-->
-                        <div class="post-item ">
-                            <div class="post-item-wrap">
-                                <div class="img d-flex justify-content-center">
-                                    <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/corso_2.jpg" alt="">
-                                </div>
-                                <div class="text-center m-t-20" style="height: 80px;">
-                                    <h3 class="text-colored">Corsi Alberghiero ristorazione</h3>
-                                    
-                                </div> 
-                                <div class="text-center">
-                                    <a href="alberghiero.html" class="item-link">Maggiori informazioni <i class="fas fa-chevron-right"></i></a>
-                                </div> 
-
-
-                            </div>
-                        </div>
-                        <!-- end: Post item-->
-                        <!-- Post item-->
-                        <div class="post-item ">
-                            <div class="post-item-wrap">
-                                <div class="img d-flex justify-content-center">
-                                    <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/corso.jpg" alt="">
-                                </div>
-                                <div class="text-center m-t-20" style="height: 80px;">
-                                    <h3 class="text-colored">Corso <br>di lingua</h3>
-                                    
-                                </div> 
-                                <div class="text-center">
-                                    <a href="lingua.html" class="item-link">Maggiori informazioni <i class="fas fa-chevron-right"></i></a>
-                                </div>
-
-
-
-                            </div>
-                        </div>
-                        <!-- end: Post item-->
-                        <div class="post-item ">
-                            <div class="post-item-wrap">
-                                <div class="img d-flex justify-content-center">
-                                    <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/attivita.jpg" alt="">
-                                </div>
-                                <div class="text-center m-t-20" style="height: 80px;">
-                                    <h3 class="text-colored">Attività</h3>
-                                    
-                                </div> 
-                                <div class="text-center">
-                                    <a href="attivita.html" class="item-link">Maggiori informazioni <i class="fas fa-chevron-right"></i></a>
-                                </div> 
-
-
-
-                            </div>
-                        </div>
-                        <!-- end: Post item-->
-                        <div class="post-item ">
-                            <div class="post-item-wrap">
-                                <div class="img d-flex justify-content-center">
-                                    <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/alloggio.jpg" alt="">
-                                </div>
-                                <div class="text-center m-t-20" style="height: 80px;">
-                                    <h3 class="text-colored">Alloggio</h3>
-                                    
-                                </div> 
-                                <div class="text-center">
-                                    <a href="alloggio.html" class="item-link">Maggiori informazioni <i class="fas fa-chevron-right"></i></a>
-                                </div> 
-
-
-
-                            </div>
-                        </div>
-                        <!-- end: Post item-->
-                        <div class="post-item ">
-                            <div class="post-item-wrap">
-                                <div class="img d-flex justify-content-center">
-                            <img class="img-attivita b-radius shadow" src="homepages/easy_stage/servizi/trasferimenti.jpg" alt="">
-                        </div>
-                        <div class="text-center m-t-20" style="height: 80px;">
-                            <h3 class="text-colored">Trasferimenti <br>e trasporto publico</h3>
+                    <div class="col-12 col-lg-5 mb-3 mb-sm-5 mb-lg-0 alternanza">
+                        <a class="card card-text-dark border-0 text-white shadow-lg min-height-380 h-100 transition-3d-hover item-link" href="alternanza.html">
+                            <figure class="position-sm-absolute top-0 left-0 w-100">
+                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 359 176" style="enable-background:new 0 0 359 176;" xml:space="preserve" class="injected-svg js-svg-injector rounded-top" data-parent="#SVGServices">
+                                    <style type="text/css"> .abstract-shapes-18-0{fill:#FFFFFF;}  </style>
+                                    <rect x="89.8" y="-25.6" transform="matrix(0.7071 0.7071 -0.7071 0.7071 34.1268 -81.7319)" class="abstract-shapes-18-0 fill-white" width="51.9" height="51.9"></rect>
+                                    <rect x="153.5" y="20.6" transform="matrix(0.7071 0.7071 -0.7071 0.7071 85.5285 -113.2785)" class="abstract-shapes-18-0 fill-white" opacity=".6" width="51.9" height="51.9"></rect>
+                                    <rect x="15.3" y="11.6" transform="matrix(0.7071 0.7071 -0.7071 0.7071 38.685 -18.1885)" class="abstract-shapes-18-0 fill-white" opacity=".5" width="51.9" height="51.9"></rect>
+                                    <rect x="291.7" y="11.6" transform="matrix(0.7071 0.7071 -0.7071 0.7071 119.6439 -213.6405)" class="abstract-shapes-18-0 fill-white" opacity=".5" width="51.9" height="51.9"></rect>
+                                    <rect x="219.3" y="-25.6" transform="matrix(0.7071 0.7071 -0.7071 0.7071 72.0665 -173.3265)" class="abstract-shapes-18-0 fill-white" width="51.9" height="51.9"></rect>
+                                    <rect x="89.8" y="67.4" transform="matrix(0.7071 0.7071 -0.7071 0.7071 99.9168 -54.4808)" class="abstract-shapes-18-0 fill-white" opacity=".25" width="51.9" height="51.9"></rect>
+                                    <rect x="219.3" y="67.4" transform="matrix(0.7071 0.7071 -0.7071 0.7071 137.8565 -146.0754)" class="abstract-shapes-18-0 fill-white" opacity=".25" width="51.9" height="51.9"></rect>
+                                </svg>
+                            </figure>
+                            <article class="d-flex align-content-end flex-wrap h-100 p-30">
+                                <h3 class="card-title text-decoration-underline">Alternanza Scuola Lavoro</h3>
+                                <p class="lead">Con questo programma gli studenti rafforzeranno le loro capacità e abilità verso il mondo del lavoro.</p>
+                                <span>Maggiori informazioni <i class="fas fa-arrow-right ml-1"></i></span>
+                            </article>
+                        </a>
+                    </div>
+                    
+                    <div class="col-sm-6 col-lg mb-3 mb-sm-0 vacanza">
+                        <a class="card card-text-dark shadow-lg text-white min-height-380 h-100 transition-3d-hover item-link" href="vacanza.html">
+                            <figure class="position-sm-absolute top-0 left-0 w-100">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 359 176" style="enable-background:new 0 0 359 176;" xml:space="preserve" class="injected-svg js-svg-injector rounded-top" data-parent="#SVGServices">
+                                    <style type="text/css">
+                                        .abstract-shapes-17-0{fill:#fff;}
+                                        .dabstract-shapes-17-1{fill:#C75EA4;}
+                                    </style>
+                                    <circle class="abstract-shapes-17-0 fill-primary" cx="39.7" cy="43" r="71.3"></circle>
+                                    <circle class="dabstract-shapes-17-1 fill-white" cx="39.7" cy="43" r="52.4"></circle>
+                                    <circle class="abstract-shapes-17-0 fill-primary" cx="39.7" cy="43" r="37.1"></circle>
+                                    <circle class="abstract-shapes-17-0 fill-primary" cx="179.5" cy="88" r="25.3"></circle>
+                                    <circle class="dabstract-shapes-17-1 fill-white" cx="39.7" cy="43" r="16.5"></circle>
+                                    <circle class="dabstract-shapes-17-1 fill-white" cx="179.5" cy="88" r="11.3"></circle>
+                                    <circle class="abstract-shapes-17-0 fill-primary" cx="179.5" cy="88" r="5.6"></circle>
+                                    <circle class="abstract-shapes-17-0 fill-primary" cx="339" cy="153.9" r="77.2"></circle>
+                                    <circle class="dabstract-shapes-17-1 fill-white" cx="339" cy="153.9" r="56.7"></circle>
+                                    <circle class="abstract-shapes-17-0 fill-primary" cx="339" cy="153.9" r="40.1"></circle>
+                                    <circle class="dabstract-shapes-17-1 fill-white" cx="339" cy="153.9" r="17.9"></circle>
+                                </svg>
+                            </figure>
                             
-                        </div> 
-                        <div class="text-center">
-                            <a href="trasferimenti.html" class="item-link">Maggiori informazioni <i class="fas fa-chevron-right"></i></a>
-                        </div> 
+                            
+                            <article class="d-flex align-content-end flex-wrap h-100 p-30">
+                                <h3 class="card-title text-decoration-underline">Vacanza Studio</h3>
+                                <p class="lead">Imparare, soggiornare e godere una nuova esperienza a Valencia</p>
+                                <span>Maggiori informazioni <i class="fas fa-arrow-right ml-1"></i></span>
+                            </article>
+                        </a>
+                    </div>
+                    
+                    <div class="col-sm-6 col-lg stage">
+                        <a class="card card-text-dark shadow-lg text-white min-height-380 h-100 transition-3d-hover item-link" href="stage.html">
+                            <figure class="position-sm-absolute top-0 left-0 w-100">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 359 176" style="enable-background:new 0 0 359 176;" xml:space="preserve" class="injected-svg js-svg-injector rounded-top" data-parent="#SVGServices">
+                                    <style type="text/css">
+                                        .abstract-shapes-16-0{fill:#fff;}
+                                    </style>
+                                    <polygon class="abstract-shapes-16-0 fill-warning" opacity=".5" points="131,0 131,70 201,0 "></polygon>
+                                    <polygon class="abstract-shapes-16-0 fill-warning" points="131,70 131,140 201,70 "></polygon>
+                                    <polygon class="abstract-shapes-16-0 fill-warning" opacity=".5" points="289,0 289,70 359,0 "></polygon>
+                                    <polygon class="abstract-shapes-16-0 fill-warning" points="70,106 70,176 140,106 "></polygon>
+                                    <polygon class="abstract-shapes-16-0 fill-warning" opacity=".5" points="70,176 70,106 0,176 "></polygon>
+                                </svg>
+                            </figure>
+                            
+                            <article class="d-flex align-content-end flex-wrap h-100 p-30">
+                                
+                                <h3 class="card-title text-decoration-underline">Stage all’estero</h3>
+                                <p class="lead">Fare uno stage all'estero è un elemento chiave nella formazione degli studenti</p>
+                                <span>Maggiori informazioni <i class="fas fa-arrow-right ml-1"></i></span>
+                                
+                            </article>
+                        </a>
+                    </div>
+                </div>
+              </div>
+        </section>
+
+
+        
+        
+        
+
+        <section class="corsi-home no-padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12" data-animate="fadeIn">
+                        
+                                
+                        <div class="heading-text heading-section text-right">
+                            <h2 class="text-medium">Corsi</h2>
+                        </div>
+                    </div>
+        
+                </div><!--.row-->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="container lingua py-3">
+                            <div class="card shadow-none">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-lg-5">
+                                        <div class="img-wrapper rounded-start">
+                                            <img src="homepages/easy_stage/servizi/corso.jpg" class="image ">
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-lg-7 px-3">
+                                        <div class="card-block px-3">
+                                            <h3 class="card-title p-3">Corso di Lingua</h3>
+                                            <p class="lead  mb-2  card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <span><a href="alternanza.html" class="item-link">Maggiori informazioni <i class="fas fa-arrow-right ml-1"></i></a></span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="container alberghiero  py-3">
+                            <div class="card shadow-none">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-lg-5">
+                                        <div class="img-wrapper">
+                                            <img src="homepages/easy_stage/servizi/corso_2.jpg" class="image">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 px-3">
+                                        <div class="card-block px-3">
+                                            <h3 class="card-title p-3">Corsi alberghiero ristorazione</h3>
+                                            <p class="lead  mb-2  card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <span><a href="alternanza.html" class="item-link">Maggiori informazioni <i class="fas fa-arrow-right ml-1"></i></a></span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- end: SERVICES -->
 
-         
+
+
+
+      
+
+   
+
+
+        <!-- Section -->
+        <section class="servizi-home">
+            <div class="container">
+            
+                <div class="row">
+
+                    <div class="col-lg-12" data-animate="fadeIn">
+                        
+                                
+                        <div class="heading-text heading-section text-left">
+                            <h2 class="text-medium">Servizi</h2>
+                        </div>
+                    </div>
+        
+                </div><!--.row-->
+
+                <div class="row pt-5" data-animate="fadeInUp">
+
+                    
+                    
+                    <div class="col-sm-6 col-lg  mb-3 mb-sm-5 mb-lg-0 alloggio">
+                        <a class="card card-text-dark shadow-lg text-white min-height-380 h-100 transition-3d-hover item-link" href="alloggio.html">
+                            <figure class="position-sm-absolute top-0 left-0 w-100">
+                                <img style="display: block;margin: auto;" src="./homepages/easy_stage/svg/houses-icon 1.svg" width="200" height="200"> 
+                            </figure>
+                            
+                            
+                            <article class="d-flex align-content-end flex-wrap h-100 p-30">
+                                <h3 class="card-title text-decoration-underline">
+                                    Alloggio</h3>
+                                <p class="lead">
+                                    Lorem ipsum dolor sit amet, consecte adipiscing elit.</p>
+                                <span>Maggiori informazioni <i class="fas fa-arrow-right ml-1"></i></span>
+                            </article>
+                        </a>
+                    </div>
+                    
+                    <div class="col-sm-6 col-lg  mb-3 mb-sm-5 mb-lg-0 attivita">
+                        <a class="card card-text-dark shadow-lg text-white min-height-380 h-100 transition-3d-hover item-link" href="attivita.html">
+                            <figure class="position-sm-absolute top-0 left-0 w-100">
+                                <img style="display: block;margin: auto;" src="./homepages/easy_stage/svg/stars.svg" width="200" height="200"> 
+                            </figure>
+                            
+                            <article class="d-flex align-content-end flex-wrap h-100 p-30">
+                                
+                                <h3 class="card-title text-decoration-underline">Attività</h3>
+                                <p class="lead">Lorem ipsum dolor sit amet, consecte adipiscing elit.</p>
+                                <span>Maggiori informazioni <i class="fas fa-arrow-right ml-1"></i></span>
+                                
+                            </article>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-lg-5 trasferimenti">
+                        <a class="card card-text-dark border-0 text-white shadow-lg min-height-380 h-100 transition-3d-hover item-link" href="trasferimenti.html">
+                            <figure class="position-sm-absolute top-0 left-0 w-100">
+                                <img style="display: block;margin: auto;" src="./homepages/easy_stage/svg/bus-icon 2.svg" width="200" height="200"> 
+                            </figure>
+                            <article class="d-flex align-content-end flex-wrap h-100 p-30">
+                                <h3 class="card-title text-decoration-underline">
+                                    Trasferimenti e traspoto publico</h3>
+                                <p class="lead">Lorem ipsum dolor sit amet, consecte adipiscing elit.</p>
+                                <span>Maggiori informazioni <i class="fas fa-arrow-right ml-1"></i></span>
+                            </article>
+                        </a>
+                    </div>
+                </div>
+            
+            
+            
+            </div>
+        </section>
+        <!-- end: Section -->
 
 
         
+      
+ 
+ 
+    
+
+       
+
 
         <!-- BLOG -->
         <section class=" blog-home content ">
@@ -497,10 +603,10 @@
                     <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
 						<div class="portfolio-item-wrap">
 							<div class="portfolio-image">
-								<a href="#"><img src="/homepages/easy_stage/gallery/gal1.jpg" alt=""></a>
+								<a href="#"><img src="./homepages/easy_stage/gallery/gal1.jpg" alt=""></a>
 							</div>
 							<div class="portfolio-description">
-								<a title="Paper Pouch!" data-lightbox="image" href="/homepages/easy_stage/gallery/gal1.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								<a title="Paper Pouch!" data-lightbox="image" href="./homepages/easy_stage/gallery/gal1.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
 								
 							</div>
 						</div>
@@ -510,10 +616,10 @@
                     <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
 						<div class="portfolio-item-wrap">
 							<div class="portfolio-image">
-								<a href="#"><img src="/homepages/easy_stage/gallery/gal2.jpg" alt=""></a>
+								<a href="#"><img src="./homepages/easy_stage/gallery/gal2.jpg" alt=""></a>
 							</div>
 							<div class="portfolio-description">
-								<a title="Paper Pouch!" data-lightbox="image" href="/homepages/easy_stage/gallery/gal2.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								<a title="Paper Pouch!" data-lightbox="image" href="./homepages/easy_stage/gallery/gal2.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
 								
 							</div>
 						</div>
@@ -523,10 +629,10 @@
                     <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
 						<div class="portfolio-item-wrap">
 							<div class="portfolio-image">
-								<a href="#"><img src="/homepages/easy_stage/gallery/gal3.jpg" alt=""></a>
+								<a href="#"><img src="./homepages/easy_stage/gallery/gal3.jpg" alt=""></a>
 							</div>
 							<div class="portfolio-description">
-								<a title="Paper Pouch!" data-lightbox="image" href="/homepages/easy_stage/gallery/gal3.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								<a title="Paper Pouch!" data-lightbox="image" href="./homepages/easy_stage/gallery/gal3.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
 								
 							</div>
 						</div>
@@ -536,10 +642,10 @@
                     <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
 						<div class="portfolio-item-wrap">
 							<div class="portfolio-image">
-								<a href="#"><img src="/homepages/easy_stage/gallery/gal4.jpg" alt=""></a>
+								<a href="#"><img src="./homepages/easy_stage/gallery/gal4.jpg" alt=""></a>
 							</div>
 							<div class="portfolio-description">
-								<a title="Paper Pouch!" data-lightbox="image" href="/homepages/easy_stage/gallery/gal4.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								<a title="Paper Pouch!" data-lightbox="image" href="./homepages/easy_stage/gallery/gal4.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
 							
 							</div>
 						</div>
@@ -549,10 +655,10 @@
                     <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
 						<div class="portfolio-item-wrap">
 							<div class="portfolio-image">
-								<a href="#"><img src="/homepages/easy_stage/gallery/gal5.jpg" alt=""></a>
+								<a href="#"><img src="./homepages/easy_stage/gallery/gal5.jpg" alt=""></a>
 							</div>
 							<div class="portfolio-description">
-								<a title="Paper Pouch!" data-lightbox="image" href="/homepages/easy_stage/gallery/gal5.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								<a title="Paper Pouch!" data-lightbox="image" href="./homepages/easy_stage/gallery/gal5.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
 								
 							</div>
 						</div>
@@ -562,10 +668,10 @@
                     <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
 						<div class="portfolio-item-wrap">
 							<div class="portfolio-image">
-								<a href="#"><img src="/homepages/easy_stage/gallery/gal6.jpg" alt=""></a>
+								<a href="#"><img src="./homepages/easy_stage/gallery/gal6.jpg" alt=""></a>
 							</div>
 							<div class="portfolio-description">
-								<a title="Paper Pouch!" data-lightbox="image" href="/homepages/easy_stage/gallery/gal6.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								<a title="Paper Pouch!" data-lightbox="image" href="./homepages/easy_stage/gallery/gal6.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
 								
 							</div>
 						</div>
@@ -575,10 +681,10 @@
                     <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
 						<div class="portfolio-item-wrap">
 							<div class="portfolio-image">
-								<a href="#"><img src="/homepages/easy_stage/gallery/gal7.jpg" alt=""></a>
+								<a href="#"><img src="./homepages/easy_stage/gallery/gal7.jpg" alt=""></a>
 							</div>
 							<div class="portfolio-description">
-								<a title="Paper Pouch!" data-lightbox="image" href="/homepages/easy_stage/gallery/gal7.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								<a title="Paper Pouch!" data-lightbox="image" href="./homepages/easy_stage/gallery/gal7.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
 								
 							</div>
 						</div>
@@ -588,10 +694,10 @@
                     <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
 						<div class="portfolio-item-wrap">
 							<div class="portfolio-image">
-								<a href="#"><img src="/homepages/easy_stage/gallery/gal8.jpg" alt=""></a>
+								<a href="#"><img src="./homepages/easy_stage/gallery/gal8.jpg" alt=""></a>
 							</div>
 							<div class="portfolio-description">
-								<a title="Paper Pouch!" data-lightbox="image" href="/homepages/easy_stage/gallery/gal8.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								<a title="Paper Pouch!" data-lightbox="image" href="./homepages/easy_stage/gallery/gal8.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
 							
 							</div>
 						</div>
@@ -601,10 +707,10 @@
                     <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
 						<div class="portfolio-item-wrap">
 							<div class="portfolio-image">
-								<a href="#"><img src="/homepages/easy_stage/gallery/gal9.jpg" alt=""></a>
+								<a href="#"><img src="./homepages/easy_stage/gallery/gal9.jpg" alt=""></a>
 							</div>
 							<div class="portfolio-description">
-								<a title="Paper Pouch!" data-lightbox="image" href="/homepages/easy_stage/gallery/gal9.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
+								<a title="Paper Pouch!" data-lightbox="image" href="./homepages/easy_stage/gallery/gal9.jpg" class="btn btn-xxs btn-outline btn-light">Zoom</a>
 								
 							</div>
 						</div>
